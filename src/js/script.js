@@ -8,6 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
         navigationClick = require('./modules/navigationclick'),
         showDiploma = require('./modules/showdiploma'),
         showNavigation = require('./modules/shownavigation');
+        changeImage = require('./modules/changeimages');
 
     changeNavigationLinks();
     changeSocialLinks();
@@ -18,4 +19,5 @@ window.addEventListener('DOMContentLoaded', () => {
     navigationClick();
     showDiploma();
     showNavigation();
+    changeImage();
 })

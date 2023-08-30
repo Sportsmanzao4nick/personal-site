@@ -35,16 +35,20 @@ function language() {
             en: "Sergey Luchko",
         },
         "main-text": {
-            ru: "30 лет, Junior frontend-разработчик проживающий в г.Екатеринбурге, Россия.",
-            en: "30 years old, Junior frontend-developer living in Yekaterinburg, Russia.",
+            ru: "30 лет, frontend-разработчик, проживающий в г. Екатеринбурге, Россия.",
+            en: "30 years old, frontend-developer living in Yekaterinburg, Russia.",
         },
         "description-header": {
             ru: "о себе",
             en: "about",
         },
-        "description-text": {
-            ru: "Прошел обучение на онлайн-платформе «Нетология» (12 месяцев), далее прошел отбор (из 2108 заявок взяли 30 человек) на стажировку в «Альфа-Банк» (4 месяца) и сейчас нахожусь в поиске полноценного места работы. Знание английского – B2. Люблю спорт – играю в Екатеринбургской хоккейной лиге дивизион \"Любитель\"(победители сезона 2021-2022гг.), катаюсь на сноуборде; путешествую по России и миру; слушаю различную музыку и посещаю концерты любимых исполнителей.",
-            en: "I completed training on the online platform «Netology» (12 months), then went through a selection process (out of 2108 applications, 30 people were chosen) for an internship at «Alpha Bank» (4 months), and currently, I am actively searching for a full-time job. I have a B2 level of English proficiency. I enjoy sports - I play in the Yekaterinburg Hockey League, Division \"Amateur\" (winners of the 2021-2022 season), I love snowboarding, travel around Russia and the world, listen to various music genres, and attend concerts of my favorite artists."
+        "description-text__main": {
+            ru: "Моя цель – полностью перейти в сферу frontend-разработки и стать настоящим профессионалом в этой области.\n Прошел обучение на онлайн-платформе «Нетология» (12 месяцев), далее прошел отбор (из 2108 заявок взяли 30 человек) на стажировку в «Альфа-Банк» (4 месяца) поучаствовал в местном стартапе и сейчас нахожусь в поиске полноценного места работы.",
+            en: "My goal is to completely move into the field of frontend development and become a true professional in this field. I completed training on the online platform «Netology» (12 months), then went through a selection process (out of 2108 applications, 30 people were chosen) for an internship at «Alpha Bank» (4 months), participated in a local startup, and currently, I am looking for a full-time job."
+        },
+        "description-text__minor": {
+            ru: "Знание английского – B2. Люблю спорт – играю в Екатеринбургской хоккейной лиге дивизион «Любитель»(победители сезона 2021-2022гг.), катаюсь на сноуборде; путешествую по России и миру; слушаю различную музыку и посещаю концерты любимых исполнителей.",
+            en: "I have a B2 level of English proficiency. I enjoy sports - I play in the Yekaterinburg Hockey League, Division «Amateur» (winners of the 2021-2022 season), I love snowboarding, travel around Russia and the world, listen to various music genres, and attend concerts of my favorite artists."
         },
         "careers-header": {
             ru: "опыт",
@@ -53,6 +57,34 @@ function language() {
         "careers-header__work": {
             ru: "опыт работы",
             en: "work experience",
+        },
+        "place-work__volkov": {
+            ru: "ИП Волков Дмитрий Витальевич",
+            en: "IP Volkov Dmitry Vitalievich",
+        },
+        "date-work__volkov": {
+            ru: "январь 2023 — август 2023",
+            en: "january 2015 — august 2023",
+        },
+        "header-work__volkov": {
+            ru: "Frontend-разработчик",
+            en: "Frontend-developer",
+        },
+        "maintext-work__volkov": {
+            ru: "Принимал активное участие в разработке веб-приложений, где выполнял следующие задачи:",
+            en: "Took an active part in the development of web applications, where performed the following tasks:",
+        },
+        "skill1-work__volkov": {
+            ru: "проектирование и верстка внешнего вида основных страниц веб-приложений, а также окон авторизации. Для этого использовали чистый JavaScript и React, а также библиотеки MUI и Bootstrap для обеспечения современного и адаптивного дизайна;",
+            en: "design and layout of the visual appearance of the main pages of web applications, as well as authentication windows. This was done using pure JavaScript and React, along with MUI and Bootstrap libraries to ensure a modern and responsive design;",
+        },
+        "skill2-work__volkov": {
+            ru: "реализация навигации по страницам веб-приложений при помощи библиотеки React Router.",
+            en: "implementation of page navigation for web applications using the React Router library.",
+        },
+        "place__volkov": {
+            ru: "Екатеринбург",
+            en: "Yekaterinburg",
         },
         "date-work__alfa": {
             ru: "ноябрь 2022 — март 2023",
@@ -92,7 +124,7 @@ function language() {
         },
         "date-work__imp": {
             ru: "июль 2015 — н.в.",
-            en: "july 2015 - present",
+            en: "july 2015 — present",
         },
         "header-work__imp": {
             ru: "Младший научный сотрудник",

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-lang="name-title">Sergey Luchko</title>
     <link rel="stylesheet" href="src/css/index.module.css">
+    <link rel="icon" href="src/favicon.ico">
 </head>
 <body>
 <div class="page">
@@ -51,7 +52,7 @@
         <div class="center-width">
             <h1 class="main__title text-white" data-lang="main-title">сергей лучко</h1>
             <div class="main__description">
-                <p class="main__text text-white" data-lang="main-text">30 лет, Junior frontend-разработчик проживающий в
+                <p class="main__text text-white" data-lang="main-text">30 лет, frontend-разработчик, проживающий в
                     г. Екатеринбурге, Россия.</p>
             </div>
             <div class="main__stack">
@@ -86,35 +87,40 @@
         </div>
     </main>
     <section class="personality">
-        <div class="wallpaper__container">
-            <div class="wallpaper__wrapper">
-                <div class="wallpaper hockey__champions"></div>
-                <div class="wallpaper hockey__first"></div>
-                <div class="wallpaper hockey__third"></div>
-                <div class="wallpaper hockey__second"></div>
+        <div class="center-width">
+            <header class="section-about__title section__title">
+                <h2 class="tittle__text text-white" data-lang="description-header">о себе</h2>
+            </header>
+            <div class="personality__container  text-white">
+                <div class="avatar__container">
+                    <img class="avatar" src="./src/images/avatar.png" alt="avatar">
+                </div>
+                <div class="about">
+                    <p class="description__text init-start" data-lang="description-text__main">
+                        Моя цель – полностью перейти в сферу frontend-разработки и стать настоящим профессионалом в этой
+                        области.
+                        Прошел обучение на онлайн-платформе «Нетология» (12 месяцев), далее прошел отбор (из 2108 заявок
+                        взяли 30 человек) на стажировку в "Альфа-Банк" (4 месяца) поучаствовал в местном стартапе и
+                        сейчас нахожусь в поиске полноценного места работы.
+                    </p>
+                </div>
             </div>
-            <div class="wallpaper__wrapper2">
-                <div class="wallpaper hockey__champions"></div>
-                <div class="wallpaper hockey__first"></div>
-                <div class="wallpaper hockey__third"></div>
-                <div class="wallpaper hockey__second"></div>
-            </div>
-        </div>
-        <div class="personality__container center-width text-white">
-            <div class="avatar__container">
-                <img class="avatar" src="./src/images/avatar.png" alt="avatar">
-            </div>
-            <div class="about">
-                <header class="section__title">
-                    <h2 class="tittle__text" data-lang="description-header">о себе</h2>
-                </header>
-                <p class="description__text init-start" data-lang="description-text">
-                    Прошел обучение на онлайн-платформе «Нетология» (12 месяцев), далее прошел отбор (из 2108 заявок
-                    взяли 30 человек) на стажировку в "Альфа-Банк" (4 месяца) и сейчас нахожусь в поиске полноценного
-                    места работы. Знание английского – B2. Люблю спорт – играю в Екатеринбургской хоккейной лиге
-                    дивизион "Любитель"(победители сезона 2021-2022гг.), катаюсь на сноуборде; путешествую по России и
-                    миру; слушаю различную музыку и посещаю концерты любимых исполнителей.
-                </p>
+            <div class="personality__container  text-white">
+                <div class="about about-right">
+                    <p class="description__text init-start" data-lang="description-text__minor">
+                        Знание английского – B2. Люблю спорт – играю в Екатеринбургской хоккейной лиге
+                        дивизион "Любитель"(победители сезона 2021-2022гг.), катаюсь на сноуборде; путешествую по России
+                        и
+                        миру; слушаю различную музыку и посещаю концерты любимых исполнителей.
+                    </p>
+                </div>
+                <div class="avatar__container">
+                    <img class="wallpaper avatar" src="./src/images/hockey/DSC_5360.jpg" alt="hockey-image1">
+                    <img class="wallpaper avatar" src="./src/images/hockey/IMG_6565.jpeg" alt="hockey-image2">
+                    <img class="wallpaper avatar" src="./src/images/hockey/IMG_6554.JPG" alt="hockey-image3">
+                    <img class="wallpaper avatar" src="./src/images/hockey/photo_5211156951101193585_y.jpg"
+                         alt="hockey-image4">
+                </div>
             </div>
         </div>
     </section>
@@ -124,6 +130,34 @@
         </header>
         <div class="experience">
             <h3 class="experience__title" data-lang="careers-header__work">опыт работы</h3>
+            <div class="experience-cell">
+                <div class="place__main-info">
+                    <h4 class="place-name init-start" data-lang="place-work__volkov">ИП Волков Дмитрий Витальевич</h4>
+                    <p class="place-date init-start" data-lang="date-work__volkov">январь 2023 — август 2023</p>
+                </div>
+                <div class="place-describe">
+                    <h4 class="describe-title init-start" data-lang="header-work__volkov">Frontend-разработчик</h4>
+                    <p class="describe-text init-start" data-lang="maintext-work__volkov">Принимал активное участие в
+                        разработке веб-приложений, где выполнял следующие задачи:<br>
+                    </p>
+                    <ul class="skills-list">
+                        <li class="skill-item init-start" data-lang="skill1-work__volkov">проектирование и верстка
+                            внешнего вида основных страниц веб-приложений, а также окон авторизации. Для этого
+                            использовали чистый JavaScript и React, а также библиотеки MUI и Bootstrap для обеспечения
+                            современного и адаптивного дизайна;
+                        </li>
+                        <li class="skill-item init-start" data-lang="skill2-work__volkov">реализация навигации по
+                            страницам веб-приложений при помощи библиотеки React Router.
+                        </li>
+                    </ul>
+                    <footer class="location">
+                    <span class="address" data-lang="place__volkov">
+                        <span class="address-symbol"></span>
+                        Екатеринбург
+                    </span>
+                    </footer>
+                </div>
+            </div>
             <div class="experience-cell">
                 <div class="place__main-info">
                     <h4 class="place-name init-start">Alfa Campus</h4>

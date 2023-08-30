@@ -6,15 +6,18 @@ const header = document.querySelector('.diploma__header');
 const img = document.querySelector('.diploma__img');
 
 function showDiploma() {
-    for (let item of diplomaIcons) {        
-        item.addEventListener('click', evt => {            
+    console.log(diplomaIcons)
+    for (let item of diplomaIcons) {
+        console.log(item.parentElement.parentElement.firstElementChild.textContent);
+        item.addEventListener('click', evt => {
                 modal.style.display = 'block';
                 switch (item.parentElement.parentElement.firstElementChild.textContent) {
                     case 'Alfa Campus' :
                         header.textContent = 'Alfa Campus';
                         img.src = 'src/images/diploms/alfa-campus.png';
                         return;
-                    case 'Институт Физики Металлов (ИФМ УрО РАН)' :
+                    case 'Институт Физики Металлов (ИФМ УрО\n' +
+                    '                        РАН)' :
                         header.textContent = 'ИФМ';
                         img.src = 'src/images/diploms/imp.jpg';
                         return;
