@@ -16,8 +16,7 @@ function showDiploma() {
                         header.textContent = 'Alfa Campus';
                         img.src = 'src/images/diploms/alfa-campus.png';
                         return;
-                    case 'Институт Физики Металлов (ИФМ УрО\n' +
-                    '                        РАН)' :
+                    case 'Институт Физики Металлов (ИФМ УрО РАН)' :
                         header.textContent = 'ИФМ';
                         img.src = 'src/images/diploms/imp.jpg';
                         return;
