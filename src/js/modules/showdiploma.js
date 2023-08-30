@@ -6,7 +6,6 @@ const header = document.querySelector('.diploma__header');
 const img = document.querySelector('.diploma__img');
 
 function showDiploma() {
-    console.log(diplomaIcons)
     for (let item of diplomaIcons) {
         console.log(item.parentElement.parentElement.firstElementChild.textContent);
         item.addEventListener('click', evt => {
