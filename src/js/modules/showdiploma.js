@@ -7,7 +7,6 @@ const img = document.querySelector('.diploma__img');
 
 function showDiploma() {
     for (let item of diplomaIcons) {
-        console.log(item.parentElement.parentElement.firstElementChild.textContent);
         item.addEventListener('click', evt => {
                 modal.style.display = 'block';
                 switch (item.parentElement.parentElement.firstElementChild.textContent) {
