@@ -49,7 +49,7 @@
         </nav>
     </header>
     <main class="main">
-        <div class="center-width">
+        <div class="introduce">
             <h1 class="main__title text-white" data-lang="main-title">сергей лучко</h1>
             <div class="main__description">
                 <p class="main__text text-white" data-lang="main-text">30 лет, frontend-разработчик, проживающий в
@@ -85,45 +85,48 @@
             <div class="main__codewars">
             </div>
         </div>
+        <section class="personality">
+            <div class="center-width">
+                <header class="section-about__title section__title">
+                    <h2 class="tittle__text text-white" data-lang="description-header">о себе</h2>
+                </header>
+                <div class="personality__container  text-white">
+                    <div class="avatar__container">
+                        <img class="avatar" src="./src/images/avatar.png" alt="avatar">
+                    </div>
+                    <div class="about">
+                        <p class="description__text init-start" data-lang="description-text__main">
+                            Моя цель – полностью перейти в сферу frontend-разработки и стать настоящим профессионалом в
+                            этой
+                            области.
+                            Прошел обучение на онлайн-платформе «Нетология» (12 месяцев), далее прошел отбор (из 2108
+                            заявок
+                            взяли 30 человек) на стажировку в "Альфа-Банк" (4 месяца) поучаствовал в местном стартапе и
+                            сейчас нахожусь в поиске полноценного места работы.
+                        </p>
+                    </div>
+                </div>
+                <div class="personality__container  text-white">
+                    <div class="about about-right">
+                        <p class="description__text init-start" data-lang="description-text__minor">
+                            Знание английского – B2. Люблю спорт – играю в Екатеринбургской хоккейной лиге
+                            дивизион "Любитель"(победители сезона 2021-2022гг.), катаюсь на сноуборде; путешествую по
+                            России
+                            и
+                            миру; слушаю различную музыку и посещаю концерты любимых исполнителей.
+                        </p>
+                    </div>
+                    <div class="avatar__container">
+                        <img class="wallpaper avatar" src="./src/images/hockey/DSC_5360.jpg" alt="hockey-image1">
+                        <img class="wallpaper avatar" src="./src/images/hockey/IMG_6565.jpeg" alt="hockey-image2">
+                        <img class="wallpaper avatar" src="./src/images/hockey/IMG_6554.JPG" alt="hockey-image3">
+                        <img class="wallpaper avatar" src="./src/images/hockey/photo_5211156951101193585_y.jpg"
+                             alt="hockey-image4">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <section class="personality">
-        <div class="center-width">
-            <header class="section-about__title section__title">
-                <h2 class="tittle__text text-white" data-lang="description-header">о себе</h2>
-            </header>
-            <div class="personality__container  text-white">
-                <div class="avatar__container">
-                    <img class="avatar" src="./src/images/avatar.png" alt="avatar">
-                </div>
-                <div class="about">
-                    <p class="description__text init-start" data-lang="description-text__main">
-                        Моя цель – полностью перейти в сферу frontend-разработки и стать настоящим профессионалом в этой
-                        области.
-                        Прошел обучение на онлайн-платформе «Нетология» (12 месяцев), далее прошел отбор (из 2108 заявок
-                        взяли 30 человек) на стажировку в "Альфа-Банк" (4 месяца) поучаствовал в местном стартапе и
-                        сейчас нахожусь в поиске полноценного места работы.
-                    </p>
-                </div>
-            </div>
-            <div class="personality__container  text-white">
-                <div class="about about-right">
-                    <p class="description__text init-start" data-lang="description-text__minor">
-                        Знание английского – B2. Люблю спорт – играю в Екатеринбургской хоккейной лиге
-                        дивизион "Любитель"(победители сезона 2021-2022гг.), катаюсь на сноуборде; путешествую по России
-                        и
-                        миру; слушаю различную музыку и посещаю концерты любимых исполнителей.
-                    </p>
-                </div>
-                <div class="avatar__container">
-                    <img class="wallpaper avatar" src="./src/images/hockey/DSC_5360.jpg" alt="hockey-image1">
-                    <img class="wallpaper avatar" src="./src/images/hockey/IMG_6565.jpeg" alt="hockey-image2">
-                    <img class="wallpaper avatar" src="./src/images/hockey/IMG_6554.JPG" alt="hockey-image3">
-                    <img class="wallpaper avatar" src="./src/images/hockey/photo_5211156951101193585_y.jpg"
-                         alt="hockey-image4">
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="section-padding center-width">
         <header class="section__title">
             <h2 class="tittle__text" data-lang="careers-header">опыт</h2>
@@ -214,10 +217,11 @@
                             научных командных проектах, связанных с поиском различных методов упрочнения сталей и
                             повышения их эксплуатационных характеристик;
                         </li>
-                        <li class="skill-item init-start" data-lang="skill2-work__imp">написание
+                        <li class="skill-item init-start">
+                            <span data-lang="skill2-work__imp__1">написание</span>
                             <a class="text-link" target="_blank"
-                               href="https://www.imp.uran.ru/?q=ru/user_card&sotrudnik=1743" data-lang="article__imp">статей</a>
-                            в рецензируемые журналы; выступления на конференциях (т.ч. и на международных);
+                               href="https://www.imp.uran.ru/?q=ru%2Fuser_card&sotrudnik=1743" data-lang="article__imp">статей</a>
+                            <span data-lang="skill2-work__imp__2">в рецензируемые журналы; выступления на конференциях (т.ч. и на международных);</span>
                         </li>
                         <li class="skill-item init-start" data-lang="skill3-work__imp">выполнение различных задач на
                             высокотехнологичном оборудовании(обработка, испытание и измерение образцов).
@@ -381,13 +385,13 @@
                     <li class="network-link list-item__none-style">
                         <a class="network__text text-white" href="https://vk.com/sergey_luchko" target="_blank">
                             <span class="link__icon vk-icon"></span>
-                            https://vk.com/sergey_luchko
+                            https://vk.com
                         </a>
                     </li>
                     <li class="network-link list-item__none-style">
                         <a class="network__text text-white" href="https://github.com/Sportsmanzao4nick" target="_blank">
                             <span class="link__icon gh-icon"></span>
-                            https://github.com/Sportsmanzao4nick
+                            https://github.com
                         </a>
                     </li>
                 </ul>
@@ -404,7 +408,7 @@
                         <a class="network__text text-white" href="https://www.researchgate.net/profile/Sergey-Luchko"
                            target="_blank">
                             <span class="link__icon rg-icon"></span>
-                            https://www.researchgate.net/profile/Sergey-Luchko
+                            https://www.researchgate.net
                         </a>
                     </li>
                 </ul>

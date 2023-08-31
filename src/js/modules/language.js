@@ -138,11 +138,14 @@ function language() {
             ru: "руководство/работа исполнителем в научных командных проектах, связанных с поиском различных методов упрочнения сталей и повышения их эксплуатационных характеристик;",
             en: "leadership/work as a performer in scientific team projects related to the search for various methods of strengthening steels and improving their performance characteristics;",
         },
-        "skill2-work__imp": {
-            ru: "написание статей в рецензируемые журналы; выступления на конференциях (т.ч. и на международных);",
-            en: "writing articles to peer-reviewed journals; speaking at conferences (including international ones);",
+        "skill2-work__imp__1": {
+            ru: "написание",
+            en: "writing",
         },
-        // не работает ссылка на статьи. Переделать
+        "skill2-work__imp__2": {
+            ru: "статей в рецензируемые журналы; выступления на конференциях (т.ч. и на международных);",
+            en: "articles to peer-reviewed journals; speaking at conferences (including international ones);",
+        },
         "article__imp": {
             ru: "статей",
             en: "articles",
