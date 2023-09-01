@@ -508,7 +508,7 @@ h3 {
     margin: 0 auto;
     position: relative;
     max-height: 425px;
-    width: 40vw;
+    width: 30vw;
     z-index: 15;
 }
 
@@ -614,7 +614,7 @@ h3 {
 /* контейнер ссылок */
 .addresses {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -829,7 +829,6 @@ h3 {
 
     /* один проект */
     .projects-cell {
-        height: 35vw;
         max-height: 350px;
         width: 45vw;
         z-index: 15;
