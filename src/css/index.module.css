@@ -528,8 +528,20 @@ h3 {
     visibility: visible;
 }
 
+.gdeparking {
+    background: url('../images/projects/gdeparking.png') no-repeat 50% 10%;
+    background-size: 160%;
+    transition: background-size 1s cubic-bezier(.16,1,.3,1);
+}
+
 .alfa-campus {
     background: url('../images/projects/alfacampus.png') no-repeat 10% 10%;
+    background-size: 160%;
+    transition: background-size 1s cubic-bezier(.16,1,.3,1);
+}
+
+.lad-academy {
+    background: url('../images/projects/ladacademy.png') no-repeat 50% 10%;
     background-size: 160%;
     transition: background-size 1s cubic-bezier(.16,1,.3,1);
 }
@@ -834,7 +846,15 @@ h3 {
         z-index: 15;
     }
 
+    .gdeparking {
+        background-size: 150%;
+    }
+
     .alfa-campus {
+        background-size: 150%;
+    }
+
+    .lad-academy {
         background-size: 150%;
     }
 
@@ -975,7 +995,15 @@ h3 {
         z-index: 15;
     }
 
+    .gdeparking {
+        background-size: 190%;
+    }
+
     .alfa-campus {
+        background-size: 190%;
+    }
+
+    .lad-academy {
         background-size: 190%;
     }
 

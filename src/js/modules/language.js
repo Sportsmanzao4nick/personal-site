@@ -35,16 +35,16 @@ function language() {
             en: "Sergey Luchko",
         },
         "main-text": {
-            ru: "30 лет, frontend-разработчик, проживающий в г. Екатеринбурге, Россия.",
-            en: "30 years old, frontend-developer living in Yekaterinburg, Russia.",
+            ru: "31 год, frontend-разработчик, проживающий в г. Екатеринбурге, Россия.",
+            en: "31 years old, frontend-developer living in Yekaterinburg, Russia.",
         },
         "description-header": {
             ru: "о себе",
             en: "about",
         },
         "description-text__main": {
-            ru: "Моя цель – полностью перейти в сферу frontend-разработки и стать настоящим профессионалом в этой области.\n Прошел обучение на онлайн-платформе «Нетология» (12 месяцев), далее прошел отбор (из 2108 заявок взяли 30 человек) на стажировку в «Альфа-Банк» (4 месяца) поучаствовал в местном стартапе и сейчас нахожусь в поиске полноценного места работы.",
-            en: "My goal is to completely move into the field of frontend development and become a true professional in this field. I completed training on the online platform «Netology» (12 months), then went through a selection process (out of 2108 applications, 30 people were chosen) for an internship at «Alpha Bank» (4 months), participated in a local startup, and currently, I am looking for a full-time job."
+            ru: "Моя цель – полностью перейти в сферу frontend-разработки и стать настоящим профессионалом в этой области.\n Прошел обучение на онлайн-платформе «Нетология» (12 месяцев), далее прошел отбор (из 2108 заявок взяли 30 человек) на стажировку в «Альфа-Банк» (4 месяца), поучаствовал в нескольких стартапах и сейчас нахожусь в поиске полноценного места работы.",
+            en: "My goal is to completely move into the field of frontend development and become a true professional in this field. I completed training on the online platform «Netology» (12 months), then went through a selection process (out of 2108 applications, 30 people were chosen) for an internship at «Alpha Bank» (4 months), participated in several startups, and currently, I am looking for a full-time job."
         },
         "description-text__minor": {
             ru: "Знание английского – B2. Люблю спорт – играю в Екатеринбургской хоккейной лиге дивизион «Любитель»(победители сезона 2021-2022гг.), катаюсь на сноуборде; путешествую по России и миру; слушаю различную музыку и посещаю концерты любимых исполнителей.",
@@ -58,13 +58,41 @@ function language() {
             ru: "опыт работы",
             en: "work experience",
         },
+        "place-work__gdeparking": {
+            ru: "Стартап ГдеПаркинг",
+            en: "Startup GdeParking",
+        },
+        "date-work__gdeparking": {
+            ru: "август 2023 — н.в.",
+            en: "august 2023 — present",
+        },
+        "header-work__gdeparking": {
+            ru: "Frontend-разработчик",
+            en: "Frontend-developer",
+        },
+        "maintext-gdeparking": {
+            ru: "ГдеПаркинг – web-приложение для поиска свободного парковочного места во дворах, используя веб-камеры во дворе и ИИ, который определяет свободные места. Принимал участие в проекте в качестве основного frontend-разработчика, где решал следующие задачи:",
+            en: "GdeParking is a web application for finding a free parking space in courtyards using webcams in the courtyard and an AI that detects vacant spaces. I participated in the project as the main frontend developer, where I addressed the following tasks:",
+        },
+        "skill1-work__gdeparking": {
+            ru: "верстка основных страниц веб-приложения и различных всплывающих окон по макету;",
+            en: "layout of the main web application pages of the web application and various pop-up windows according to the design;",
+        },
+        "skill2-work__gdeparking": {
+            ru: "получение данных о камерах с сервера и добавление новых камер через форму отправки данных.",
+            en: "fetching camera data from the server and adding new cameras through a data submission form.",
+        },
+        "place__gdeparking": {
+            ru: "Москва",
+            en: "Moscow",
+        },
         "place-work__volkov": {
             ru: "ИП Волков Дмитрий Витальевич",
             en: "IP Volkov Dmitry Vitalievich",
         },
         "date-work__volkov": {
             ru: "январь 2023 — август 2023",
-            en: "january 2015 — august 2023",
+            en: "january 2023 — august 2023",
         },
         "header-work__volkov": {
             ru: "Frontend-разработчик",
